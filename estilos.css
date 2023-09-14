@@ -5,12 +5,6 @@
 
 .navbar-nav {
     font-size: 20px;
-    padding-right: 50px;
-    margin: 10px;
-}
-
-.container-fluid {
-    height: 100px;
 }
 
 .jumbotron {
@@ -61,8 +55,46 @@
 /*FIN Youtube Iframe estilos*/
 
 
+.vivitucasa{
+    text-align: center;
+}
 
 
+
+/* Inicio boton de whatsapp */
+.botonWhatsapp {
+    background-color: #25d366;
+    border-color: #25d366;
+    position: fixed;
+    z-index: 1;
+    right: 10px;
+    bottom: 10px;
+    border-radius: 100rem;
+    width: 50px;
+    height: 50px;
+    font-size: 27px !important;
+    line-height: 48px !important;
+    padding: 0px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #1faf54;
+    backdrop-filter: blur(10px);
+    animation: slideUp 0.5s ease-out;
+}
+
+.botonWhatsapp:hover {
+    background-color: #1faf54;
+}
+
+.iconoWhatsapp {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-size: 4rem;
+    line-height: 20px;
+}
+/* Fin boton de whatsapp */
 /* footer incio */
 * {
     margin: 0;
@@ -92,7 +124,7 @@
 }
 
 .footer-link h4 {
-    font-size: 20px;
+    font-size: 30px;
     color: #ffffff;
     margin-bottom: 25px;
     font-weight: 500;
@@ -102,7 +134,7 @@
 }
 
 .footer-link ul li a {
-    font-size: 18px;
+    font-size: 20px;
     text-decoration: none;
     color: #ffffff;
     display: block;
@@ -133,6 +165,10 @@
 
 .social-link a:hover {
     background-color: orangered;
+}
+
+.fab{
+    font-size: 20px;
 }
 
 @media(max-width:991px) {
